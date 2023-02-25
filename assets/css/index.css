@@ -135,3 +135,35 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.container-rodape{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 220px;
+}
+
+.card-rodape{
+    background-color: #e2dbff5e;
+    padding: 30px;
+    border-radius: 10px 10px;
+    box-shadow: 3px 3px 1px 0px #00000070;
+    width: 500px;
+}
+
+p{
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: #4f2263;
+}
